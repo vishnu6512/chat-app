@@ -38,7 +38,7 @@ const ChatPage = () => {
         </div>
 
         {/* Chat Area */}
-        <div className="flex flex-1 flex-col">
+        <div className="flex flex-1 flex-col h-full">
           {/* Chat Header */}
           <div className="border-b border-gray-200 bg-white p-4">
             <h2 className="text-lg font-semibold text-gray-700">
@@ -50,7 +50,7 @@ const ChatPage = () => {
           </div>
 
           {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-4">
+          <div className="flex-1 overflow-y-auto p-4 h-full">
             <MessageList />
           </div>
 

@@ -18,7 +18,7 @@ const LoginPage = () => {
     <div className="flex min-h-[80vh] items-center justify-center">
       <div className="w-full max-w-md rounded-lg bg-white p-8 shadow-lg">
         <h2 className="mb-6 text-center text-2xl font-bold text-gray-800">
-          Welcome to ChatApp
+          Welcome to QuickChat
         </h2>
         <div className="space-y-4">
           <input
