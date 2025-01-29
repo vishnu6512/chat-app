@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { login } from '../redux/authSlice';
+import { login } from '../redux/authenSlice';
 import socket from '../utils/socket';
 
 const LoginPage = () => {

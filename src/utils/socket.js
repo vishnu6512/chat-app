@@ -2,6 +2,6 @@
 import { io } from 'socket.io-client';
 
 // Connect to your backend Socket.io server
-const socket = io('http://localhost:3001'); // Replace with your server URL
+const socket = io('https://chat-app-server-0dkd.onrender.com'); // Replace with your server URL
 
 export default socket;
