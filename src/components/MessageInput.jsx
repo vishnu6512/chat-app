@@ -21,7 +21,7 @@ const MessageInput = () => {
   };
 
   return (
-    <div className="flex gap-2">
+    <div className="flex flex-col md:flex-row gap-2">
       {/* Message input field */}
       <input
         type="text"
@@ -34,7 +34,7 @@ const MessageInput = () => {
           }
         }}
         placeholder="Type a message..."
-        className="flex-1 rounded-lg border border-gray-300 px-4 py-2 focus:border-blue-500 focus:outline-none"
+        className="flex-1 rounded-lg border border-gray-300 px-4 py-2 focus:border-blue-500 focus:outline-none md:mr-2"
       />
       
       {/* Send button */}

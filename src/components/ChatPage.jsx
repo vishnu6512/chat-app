@@ -28,9 +28,9 @@ const ChatPage = () => {
 
   return (
     <div className="mx-auto max-w-6xl rounded-lg bg-white shadow-lg">
-      <div className="flex h-[80vh]">
+      <div className="flex flex-col md:flex-row h-[80vh]">
         {/* Online Users Sidebar */}
-        <div className="w-64 border-r border-gray-200 bg-gray-50">
+        <div className="w-full md:w-64 border-r border-gray-200 bg-gray-50">
           <div className="p-4">
             <h2 className="mb-4 text-lg font-semibold text-gray-700">Online Users</h2>
             <OnlineUsers />

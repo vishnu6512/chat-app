@@ -6,7 +6,7 @@ const OnlineUsers = () => {
   const currentUser = useSelector((state) => state.auth.username);
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 p-4 md:p-0">
       {/* Loop through each online user */}
       {onlineUsers.map((user, index) => (
         <div
