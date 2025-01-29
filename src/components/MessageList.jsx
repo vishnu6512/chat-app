@@ -6,7 +6,7 @@ const MessageList = () => {
   const currentUser = useSelector((state) => state.auth.username);
 
   return (
-    <div className="space-y-4 p-4 md:p-0">
+    <div className="space-y-4 p-4 md:p-0 h-full overflow-y-auto">
       {messages.map((msg, index) => (
         <div
           key={index}
